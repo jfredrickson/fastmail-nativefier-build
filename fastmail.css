@@ -1,9 +1,9 @@
 .v-MailboxItem-preview {
-  color: #6b757f;
+  color: #6b757f !important;
 }
 
-.is-read {
-  color: #3e4549;
-  background-color: #f8f9f9;
+.v-MailboxItem.is-read {
+  color: #3e4549 !important;
+  background-color: #f8f9f9 !important;
 }
 
