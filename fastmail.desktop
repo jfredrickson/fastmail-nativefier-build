@@ -4,5 +4,5 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Fastmail
-Exec=/opt/Fastmail-linux-x64/Fastmail
+Exec=/opt/Fastmail-linux-x64/Fastmail --ozone-platform=wayland
 Icon=fastmail
