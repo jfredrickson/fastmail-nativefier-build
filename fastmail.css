@@ -1,9 +1,11 @@
-.v-MailboxItem-preview {
-  color: #6b757f !important;
-}
+@media (prefers-color-scheme: light) {
+  .v-MailboxItem-preview {
+    color: #6b757f !important;
+  }
 
-.v-MailboxItem.is-read {
-  color: #3e4549 !important;
-  background-color: #f8f9f9 !important;
+  .v-MailboxItem.is-read {
+    color: #3e4549 !important;
+    background-color: #f8f9f9 !important;
+  }
 }
 
