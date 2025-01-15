@@ -13,4 +13,3 @@ sed -i -E "s/fastmail-nativefier-.{6}/${NAME}/" ${DIR}/resources/app/package.jso
 # Fix permissions
 find ${DIR} -type f -exec chmod go+r {} \;
 find ${DIR} -type d -exec chmod go+rx {} \;
-
